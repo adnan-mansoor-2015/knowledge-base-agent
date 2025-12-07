@@ -55,9 +55,6 @@ ollama pull pielee/qwen3-4b-thinking-2507_q8
    LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
    LANGCHAIN_API_KEY=<your-langchain-api-key>
    
-   # OpenAI Key (Not used for inference, but might be required by some libs)
-   OPENAI_API_KEY=<your-openai-key>
-   
    # User Agent (Required to identify requests)
    USER_AGENT=KnowledgeBaseAgent/1.0
    ```

@@ -36,8 +36,6 @@ def main():
 
     retriever = vectorstore.as_retriever()
 
-    retriever = vectorstore.as_retriever()
-
     #### RETRIEVAL and GENERATION ####
 
     # Prompt
