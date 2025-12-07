@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.terminal.useEnvFile": false,
+		"python.defaultInterpreterPath": "/Users/adnan.mansoor/code/knowledge-base-agent/.venv/bin/python"
+	}
+}
