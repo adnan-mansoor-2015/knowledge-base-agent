@@ -9,7 +9,7 @@ A RAG (Retrieval-Augmented Generation) agent built with **LangChain** that uses 
 - **Retrieval**: Fetches relevant context for user queries.
 - **Generation**: Answers questions using the `pielee/qwen3-4b-thinking-2507_q8` local LLM via Ollama.
 
-## Prerequisites
+## Prerequisites (Used Antigravity)
 
 1. **Python 3.12+**
 2. **Ollama**: [Download and install Ollama](https://ollama.com/).
@@ -71,3 +71,10 @@ The script will:
 1. Load and index the documentation.
 2. Initialize the RAG pipeline.
 3. Ask a pre-defined question ("Summarize") and print the answer.
+
+## Next Steps
+
+# Note: We are basically trying to implement different features of: https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_1_to_4.ipynb
+
+1. Add support for multiple LLMS. We should be able to switch between OLLAMA and Openrouter LLMs.
+2. We must be able to load from different sources. 
